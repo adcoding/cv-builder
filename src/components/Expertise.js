@@ -11,7 +11,7 @@ function Expertise() {
     return (
         <div>
             <h2>Expertise</h2>
-            <input type="textarea" placeholder="lorem ipsum dolor sit amet" value={expertise} onChange={(e) => setExpertise(e.target.value)} />
+            <textarea placeholder="lorem ipsum dolor sit amet" value={expertise} onChange={(e) => setExpertise(e.target.value)} />
 
             <button onClick={handleSave}>save</button>
         </div>
