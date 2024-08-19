@@ -2,6 +2,8 @@ import React from "react";
 import PersonalInfo from "@/components/PersonalInfo";
 import Expertise from "@/components/Expertise";
 import Experience from "@/components/Experience";
+import Education from "@/components/Education";
+import Languages from "@/components/Languages";
 
 export default function Home() {
   return (
@@ -18,6 +20,14 @@ export default function Home() {
 
       <div className="experience-info-container">
         <Experience />
+      </div>
+
+      <div className="education-info-container">
+        <Education />
+      </div>
+
+      <div className="language-info-container">
+        <Languages />
       </div>
     </main>
   );
